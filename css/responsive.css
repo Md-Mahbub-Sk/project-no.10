@@ -1,0 +1,305 @@
+@media screen and (max-width:980px){
+    .for-margin{
+        margin-top:100px;
+    }
+    .about-hm-box{
+        box-shadow: 5px 5px 25px gray,-5px -5px 25px gray;
+        height: 80%;
+        padding:10px;
+        
+    }
+    .all-services{
+        height:1000px;
+        width:800px;
+        margin: 0 auto;
+        
+    }
+    .service{
+        font-family: 'Marck Script';
+        width:360px;
+        height:400px;
+        
+        padding:10px;
+        float:left;
+        position: relative;
+        text-align: justify;
+        margin-left:15px;
+        box-shadow: 5px 5px 15px gray,-5px -5px 15px gray;
+    }
+    .service-marginFor{
+        margin-bottom:50px;
+        
+    }
+    
+    .all-services2{
+        height:1000px;
+        width:800px;
+        margin: 0 auto;
+        
+    }
+
+}
+@media screen and (max-width:768px){
+    
+    .hasan-head{
+        font-size:30px;
+    }
+    .hasan-topPart{
+        background-image:url("../images/bg2.jpg");
+        background-size:1000px;
+        height:600px;
+        
+
+        background-repeat:no-repeat;
+
+    }
+    .second-about-site{
+        height:700px;
+        background-image: url("../images/top-banner.png");
+        padding:2%;
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+       
+    }
+    .about-hm-box{
+        box-shadow: 5px 5px 25px gray,-5px -5px 25px gray;
+        height: 95%;
+        padding:10px;
+        border-radius:20px;
+        
+        
+    }
+    .for-margin{
+        margin-top:160px;
+    }
+    .all-services{
+        height:1000px;
+        width:600px;
+        margin: 0 auto;
+        
+        
+    }
+    .service{
+        font-family: 'Marck Script';
+        width:265px;
+        height:400px;
+        padding:10px;
+        float:left;
+        position: relative;
+        text-align: justify;
+        margin-left:15px;
+        box-shadow: 5px 5px 15px gray,-5px -5px 15px gray;
+        border-radius: 20px;
+    }
+    .round1{
+        width:80px;
+        height:80px;
+        background-image: url("../images/mouse.png");
+        background-size: 100%;
+        position: absolute;
+        top:-39px;
+        left:100px;
+    }
+    .round2{
+        width:80px;
+        height:80px;
+        background-image: url("../images/coding.png");
+        background-size: 100%;
+        position: absolute;
+        top:-39px;
+        left:100px;
+    }
+    .round3{
+        width:80px;
+        height:80px;
+        background-image: url("../images/smartwatch.png");
+        background-size: 100%;
+        position: absolute;
+        top:-39px;
+        left:125px;
+    }
+    .round4{
+        width:80px;
+        height:80px;
+        background-image: url("../images/php.png");
+        background-size: 100%;
+        position: absolute;
+        top:-39px;
+        left:125px;
+    }
+    
+    .all-services2{
+        height:1000px;
+        width:600px;
+        margin: 0 auto;
+        
+    }
+}
+@media screen and (max-width:480px){
+    .second-about-site{
+        height:1200px;
+        background-image: url("../images/top-banner.png");
+        
+        background-repeat: no-repeat;
+        
+       
+    }
+    
+    .about-hm{
+        font-family:'Great Vibes';
+        width:90%;
+        float:left;
+       
+    }
+    .about-hm-box{
+        box-shadow: 5px 5px 25px gray,-5px -5px 25px gray;
+        height: 43%;
+        
+        
+    }
+    .about-hm-box a{
+        display:inline-block;
+        text-decoration: none;
+        text-align: center;
+        background-image: linear-gradient(45deg, lightsalmon, tomato);
+        padding:10px 20px;
+        border-radius: 10px;
+        color:black;
+        margin-left: 38%;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .all-services{
+        height:2000px;
+        width:450px;
+        margin: 0 auto;
+        
+        
+    }
+    .service{
+        font-family: 'Marck Script';
+        width:405px;
+        height:400px;
+        padding:10px;
+        float:left;
+        position: relative;
+        text-align: justify;
+        margin-left:15px;
+        box-shadow: 5px 5px 15px gray,-5px -5px 15px gray;
+        border-radius: 20px;
+    }
+
+.round1{
+    width:80px;
+    height:80px;
+    background-image: url("../images/mouse.png");
+    background-size: 100%;
+    position: absolute;
+    top:-39px;
+    left:170px;
+}
+.round2{
+    width:80px;
+    height:80px;
+    background-image: url("../images/coding.png");
+    background-size: 100%;
+    position: absolute;
+    top:-39px;
+    left:170px;
+}
+.round3{
+    width:80px;
+    height:80px;
+    background-image: url("../images/smartwatch.png");
+    background-size: 100%;
+    position: absolute;
+    top:-39px;
+    left:170px;
+}
+.round4{
+    width:80px;
+    height:80px;
+    background-image: url("../images/php.png");
+    background-size: 100%;
+    position: absolute;
+    top:-39px;
+    left:170px;
+}
+.all-services2{
+        height:1870px;
+        width:450px;
+        margin: 0 auto;
+        
+    }
+}
+@media screen and (max-width:360px){
+    .about-hm{
+        font-family:'Great Vibes';
+        width:85%;
+        float:none;
+        height:55%;
+       
+    }
+    .all-services{
+        height:2000px;
+        width:350px;
+        margin: 0 auto;
+        
+        
+    }
+    .all-services2{
+        height:1870px;
+        width:350px;
+        margin: 0 auto;
+        
+    }
+    .service{
+        font-family: 'Marck Script';
+        width:300px;
+        height:400px;
+        padding:10px;
+        float:left;
+        position: relative;
+        text-align: justify;
+        margin-left:15px;
+        box-shadow: 5px 5px 15px gray,-5px -5px 15px gray;
+        border-radius: 20px;
+    }
+    .round1{
+        width:80px;
+        height:80px;
+        background-image: url("../images/mouse.png");
+        background-size: 100%;
+        position: absolute;
+        top:-39px;
+        left:125px;
+    }
+    .round2{
+        width:80px;
+        height:80px;
+        background-image: url("../images/coding.png");
+        background-size: 100%;
+        position: absolute;
+        top:-39px;
+        left:125px;
+    }
+    .round3{
+        width:80px;
+        height:80px;
+        background-image: url("../images/smartwatch.png");
+        background-size: 100%;
+        position: absolute;
+        top:-39px;
+        left:125px;
+    }
+    .round4{
+        width:80px;
+        height:80px;
+        background-image: url("../images/php.png");
+        background-size: 100%;
+        position: absolute;
+        top:-39px;
+        left:125px;
+    }
+
+}

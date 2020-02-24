@@ -25,12 +25,12 @@
     font-family: 'Monoton';
     
 }
-.hasan-h1{
+.hasan-head{
     background:linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.hasan-h4{
+.hasan-head{
     background:linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -60,7 +60,7 @@
     background-image: url("../images/top-banner.png");
     padding:2%;
     background-repeat: no-repeat;
-   
+   border-radius:20px;
    
 }
 .second-about-site img{
