@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+   
+}
+
+.hasan-topPart{
+    background-image:url("../images/bg2.jpg");
+    background-size:100%;
+    height:650px;
+    margin-bottom:100px;
+    
+   
+}
+.hasan-about{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    font-size:40px;
+    letter-spacing: 6px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    font-family: 'Monoton';
+    
+}
+.hasan-h1{
+    background:linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hasan-h4{
+    background:linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.big-h{
+    font-size:90px;
+}
+.about-hm-h1{
+    font-family:'Marck Script';
+    font-size:50px;
+    text-align:center;
+
+}
+.about-hm{
+    font-family:'Great Vibes';
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+}
+.about-hm-p{
+    text-align: justify;
+    font-size:25px;
+}
+.second-about-site{
+    height:700px;
+    background-image: url("../images/top-banner.png");
+    padding:2%;
+    background-repeat: no-repeat;
+   
+   
+}
+.second-about-site img{
+    width:100%;
+}
+.about-hm-box{
+    box-shadow: 5px 5px 25px gray,-5px -5px 25px gray;
+    height: 65%;
+    padding:10px;
+    
+}
+.about-hm-box:hover{
+    box-shadow: 0 0 10px orange, 0 0 20px rgb(187, 139, 49), 0 0 130px orange;
+    transition:.5s;
+}
