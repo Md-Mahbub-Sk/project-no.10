@@ -2,15 +2,14 @@
     margin:0;
     padding:0;
 }
-body{
-   
-}
+
 
 .hasan-topPart{
     background-image:url("../images/bg2.jpg");
     background-size:100%;
     height:650px;
     margin-bottom:100px;
+    background-repeat:no-repeat;
     
    
 }
@@ -28,12 +27,12 @@ body{
 }
 .hasan-h1{
     background:linear-gradient(to top, #ffe838, #fd57bf);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .hasan-h4{
     background:linear-gradient(to top, #ffe838, #fd57bf);
-    -webkit-background-clip: text;
+  background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .big-h{
@@ -57,7 +56,7 @@ body{
     font-size:25px;
 }
 .second-about-site{
-    height:700px;
+    height:650px;
     background-image: url("../images/top-banner.png");
     padding:2%;
     background-repeat: no-repeat;
@@ -74,6 +73,130 @@ body{
     
 }
 .about-hm-box:hover{
-    box-shadow: 0 0 10px orange, 0 0 20px rgb(187, 139, 49), 0 0 130px orange;
+    box-shadow: 0 0 10px gray, 0 0 20px gainsboro, 0 0 130px gainsboro;
     transition:.5s;
+}
+.about-hm-box a{
+    display:inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding:10px 20px;
+    border-radius: 10px;
+    color:black;
+    margin-left: 35%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.all-services{
+    height:500px;
+    width:1300px;
+    margin: 0 auto;
+    
+}
+.service{
+    font-family: 'Marck Script';
+    width:300px;
+    height:400px;
+    padding:3px;
+    float:left;
+    position: relative;
+    text-align: justify;
+    margin-left:15px;
+    box-shadow: 5px 5px 15px gray,-5px -5px 15px gray;
+}
+.service:hover{
+    transition:.75s;
+    box-shadow: 0 0 10px gray, 0 0 20px gainsboro, 0 0 130px gainsboro;
+    -webkit-box-shadow:0 0 10px gray, 0 0 20px gainsboro, 0 0 130px gainsboro;
+}
+.round1{
+    width:80px;
+    height:80px;
+    background-image: url("../images/mouse.png");
+    background-size: 100%;
+    position: absolute;
+    top:-39px;
+    left:125px;
+}
+.round2{
+    width:80px;
+    height:80px;
+    background-image: url("../images/coding.png");
+    background-size: 100%;
+    position: absolute;
+    top:-39px;
+    left:125px;
+}
+.round3{
+    width:80px;
+    height:80px;
+    background-image: url("../images/smartwatch.png");
+    background-size: 100%;
+    position: absolute;
+    top:-39px;
+    left:125px;
+}
+.round4{
+    width:80px;
+    height:80px;
+    background-image: url("../images/php.png");
+    background-size: 100%;
+    position: absolute;
+    top:-39px;
+    left:125px;
+}
+.round1:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition:1s;
+}
+.round2:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition:1s;
+}
+.round3:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition:1s;
+}
+.round4:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition:1s;
+}
+.round-lorem{
+    position: absolute;
+    top:40px;
+    left:86px;
+}
+.service p{
+    margin-top: 80px;
+}
+.service-head{
+    text-align: center;
+    margin-bottom: 3%;
+    font-family:'Monoton';
+    letter-spacing: 12px;
+    color:rgba(76, 0, 255, 0.705);
+}
+.service-head2{
+    text-align: center;
+    margin-bottom:70px;
+    font-family:'Monoton';
+    letter-spacing: 12px;
+    color:rgba(76, 0, 255, 0.705);
+}
+
+.all-services2{
+    height:500px;
+    width:1300px;
+    margin: 0 auto;
+    
+}
+footer{
+    text-align: center;
+    padding:10px;
+    background-color: burlywood;
 }
